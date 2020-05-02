@@ -1,0 +1,44 @@
+.MapContainer {
+  background-color: #ffffff;
+  height: 70vh;
+  width: 70vw;
+  // border: 2px solid #666666;
+  box-shadow: 0px 0px 10px 0px #666666;
+  border-radius: 5px;
+  position: relative;
+
+  .img-div {
+    position: absolute;
+    top: 2vmin;
+    right: 2vmin;
+
+    .img {
+      width: 16px;
+    }
+  }
+
+  .btn-div {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .btn {
+      width: 13vmin;
+      height: 5vmin;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      background-color: #7d73ec;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #6b5ff4;
+    }
+  }
+}

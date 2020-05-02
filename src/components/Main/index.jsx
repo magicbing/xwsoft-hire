@@ -1,10 +1,13 @@
 import React from 'react'
+import AddBtn from './AddBtn'
+import MapContainer from './MapContainer'
 import './index.scss'
 
 function Main() {
   return (
     <div className="Main">
-      123
+      <AddBtn />
+      <MapContainer />
     </div>
   )
 }

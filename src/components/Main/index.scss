@@ -1,4 +1,18 @@
 .Main {
   background-color: #EEF5F9;
-  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .AddBtn {
+    position: absolute;
+    top: 3vh;
+    right: 10vw;
+  }
+  
+  // .MapContainer {
+
+  // }
 }
