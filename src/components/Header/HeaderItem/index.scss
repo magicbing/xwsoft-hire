@@ -1,6 +1,8 @@
 .HeaderItem {
   display: flex;
-  padding-left: 20px;
+  margin-left: 20px;
+  position: relative;
+  padding: 1vmin 0;
   
   .img-div {
     position: relative;
@@ -28,8 +30,4 @@
     }
   }
 
-
-  .desc {
-
-  }
 }

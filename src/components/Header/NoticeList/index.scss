@@ -1,0 +1,17 @@
+.NoticeList {
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  top: calc(2vmin + 20px);
+  right: -2vmin;
+  background-color: #ffffff;
+  // border: 1px solid #999999;
+  box-shadow: 0px 0px 3px 0px #666666;
+  border-radius: 3px;
+  padding: 2vmin;
+
+  .item {
+    border-bottom: 1px solid #aaaaaa;
+    padding: 0.5vmin;
+  }
+}

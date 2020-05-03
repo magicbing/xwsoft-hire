@@ -6,6 +6,7 @@
   box-shadow: 0px 0px 10px 0px #666666;
   border-radius: 5px;
   position: relative;
+  animation: fadeIn 0.3s linear;
 
   .img-div {
     position: absolute;
@@ -27,8 +28,8 @@
     align-items: center;
 
     .btn {
-      width: 13vmin;
-      height: 5vmin;
+      width: calc(26px + 8vmin);
+      height: calc(15px + 3vmin);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -43,3 +44,13 @@
     }
   }
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
