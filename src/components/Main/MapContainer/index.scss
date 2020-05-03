@@ -9,11 +9,12 @@
 
   .img-div {
     position: absolute;
-    top: 2vmin;
-    right: 2vmin;
+    top: 1vmin;
+    right: 1vmin;
 
     .img {
       width: 16px;
+      cursor: pointer;
     }
   }
 

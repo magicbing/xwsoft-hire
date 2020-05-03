@@ -5,7 +5,7 @@ function HeaderItem(props) {
   return (
     <div className="HeaderItem">
       {/* image + numtag */}
-      <div>
+      <div className="img-div">
         <img className="img" src={props.img} alt="images"/>
         {props.numtag && <div className="numtag">
           {props.numtag}
