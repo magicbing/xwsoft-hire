@@ -7,6 +7,7 @@ function MapContainer(props) {
     const { BMap } = window
     const map = new BMap.Map("allmap")
     map.centerAndZoom(new BMap.Point(116.404, 39.915), 11)
+    map.enableScrollWheelZoom(true)
   }, [])
 
   const closeBtn = function() {
