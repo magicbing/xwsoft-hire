@@ -1,0 +1,14 @@
+.Main {
+  background-color: #EEF5F9;
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .AddBtn {
+    position: absolute;
+    top: 5vmin;
+    right: 15vmin;
+  }
+}
